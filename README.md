@@ -24,6 +24,21 @@
 - Auto-refreshes daily
 - Configurable for any location and Sonos speaker
 
+## 📱 Web Interface
+
+<div align="center">
+<img src="assets/web_interface.png" alt="Web Control Interface" width="400"/>
+
+*Mobile-friendly web interface for controlling your Azan scheduler*
+</div>
+
+**Control at your fingertips:**
+- 🕌 View today's prayer times in real-time
+- ⏹️ Stop playback instantly
+- ⏸️ Quick pause presets (30m, 1h, 2h)
+- ▶️ Resume scheduling anytime
+- 📱 Works on any device (phone, tablet, desktop)
+
 ## Setup
 
 ### 1. Install Dependencies
