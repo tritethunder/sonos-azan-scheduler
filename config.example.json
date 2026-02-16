@@ -1,0 +1,38 @@
+{
+  "location": {
+    "city": "New York",
+    "country": "USA",
+    "method": 2,
+    "_comment": "method: 1=MWL, 2=ISNA, 3=Egypt, 4=Makkah, 5=Karachi. See https://aladhan.com/calculation-methods"
+  },
+  "sonos": {
+    "speaker_ip": "",
+    "_comment_speaker_ip": "Leave empty for auto-discovery, or specify IP like 192.168.1.100",
+    "speaker_name": "Living Room",
+    "volume": 30
+  },
+  "azan": {
+    "prayers": {
+      "Fajr": {
+        "enabled": true,
+        "spotify_uri": "spotify:track:YOUR_TRACK_ID_HERE"
+      },
+      "Dhuhr": {
+        "enabled": true,
+        "spotify_uri": "spotify:track:YOUR_TRACK_ID_HERE"
+      },
+      "Asr": {
+        "enabled": true,
+        "spotify_uri": "spotify:track:YOUR_TRACK_ID_HERE"
+      },
+      "Maghrib": {
+        "enabled": true,
+        "spotify_uri": "spotify:track:YOUR_TRACK_ID_HERE"
+      },
+      "Isha": {
+        "enabled": true,
+        "spotify_uri": "spotify:track:YOUR_TRACK_ID_HERE"
+      }
+    }
+  }
+}

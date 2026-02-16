@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.log
+.DS_Store
+.git
+.gitignore
+*.md
+!README.md
+test_*.py
+discover_sonos.py
+check_spotify.py
+try_spotify_search.py

@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+
+# Personal Config (contains IPs, locations, Spotify URIs)
+config.json
+
+# Runtime State
+scheduler_state.json
+
+# Deployment Archives
+*.tar.gz
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo

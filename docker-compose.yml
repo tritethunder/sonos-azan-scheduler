@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  azan-scheduler:
+    build: .
+    container_name: azan-scheduler
+    restart: unless-stopped
+    network_mode: host  # Required for Sonos discovery
+    volumes:
+      - ./config.json:/app/config.json
+      - ./scheduler_state.json:/app/scheduler_state.json
+    environment:
+      - TZ=Europe/Stockholm
+
+  azan-web:
+    build: .
+    container_name: azan-web
+    restart: unless-stopped
+    network_mode: host  # Required for Sonos control
+    volumes:
+      - ./config.json:/app/config.json
+      - ./scheduler_state.json:/app/scheduler_state.json
+    environment:
+      - TZ=Europe/Stockholm
+    command: python web_control.py
