@@ -1,8 +1,22 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="Sonos Azan Scheduler Logo" width="200"/>
+
 # Sonos Azan Scheduler
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
 
-Automatically plays Azan (call to prayer) on your Sonos speaker at Islamic prayer times.
+**Automated Islamic prayer call system for Sonos speakers**
+
+*Brings the call to prayer to your home with scheduled playback and web control*
+
+[Features](#features) • [Setup](#setup) • [Deployment](#production-deployment) • [Control](#controlling-the-scheduler)
+
+</div>
+
+---
 
 ## Features
 - Fetches accurate prayer times from Aladhan API
